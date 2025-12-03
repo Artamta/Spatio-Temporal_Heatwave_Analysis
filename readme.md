@@ -1,7 +1,7 @@
 # 🌡️🔥 Spatio-Temporal Heatwave Analysis & Clustering
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ERA5-0.1%C2%B0%20x%200.1%C2%B0-blue" />
+  <img src="https://img.shields.io/badge/ERA5-0.25%C2%B0%20x%200.1%C2%B0-blue" />
   <img src="https://img.shields.io/badge/Clustering-KMeans%20%26%20UPGMA-orange" />
   <img src="https://img.shields.io/badge/SLURM-Enabled-green" />
 </p>
@@ -25,7 +25,7 @@
 - **North:** 45°N
 - **South:** 15°S
 
-This project focuses on the Asia-Pacific region, leveraging daily ERA5 reanalysis data at **0.1° x 0.1°** resolution for maximum spatial detail.
+This project focuses on the Asia-Pacific region, leveraging daily ERA5 reanalysis data at **0.25° x 0.25°** resolution for maximum spatial detail.
 
 ---
 
