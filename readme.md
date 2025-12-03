@@ -1,7 +1,7 @@
 # 🌡️🔥 Spatio-Temporal Heatwave Analysis & Clustering
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ERA5-0.25%C2%B0%20x%200.1%C2%B0-blue" />
+  <img src="https://img.shields.io/badge/ERA5-0.25%C2%B0%20x%200.25%C2%B0-blue" />
   <img src="https://img.shields.io/badge/Clustering-KMeans%20%26%20UPGMA-orange" />
   <img src="https://img.shields.io/badge/SLURM-Enabled-green" />
 </p>
@@ -33,7 +33,7 @@ This project focuses on the Asia-Pacific region, leveraging daily ERA5 reanalysi
 
 ## 🚀 Project Highlights
 
-- **High-Resolution ERA5 Data**: Daily max temperature, **0.1° x 0.1°** grid (Asia-Pacific, E=135, W=35, N=45, S=-15)
+- **High-Resolution ERA5 Data**: Daily max temperature, **0.25° x 0.25°** grid (Asia-Pacific, E=135, W=35, N=45, S=-15)
 - **Automated Data Download**: ERA5 data fetched via CDS API and custom Python scripts
 - **SLURM-Enabled Processing**: Large-scale data handled efficiently with SLURM batch scripts (`data/download_era5_serial.slurm`)
 - **Comprehensive Clustering**: Discover **4 major heatwave families** and subfamilies using K-Means & UPGMA
@@ -113,7 +113,7 @@ Spito-Temporal_Heatwave_Analysis-main/
 
 - Download ERA5 daily maximum temperature data using [`data/api.py`](data/api.py) (CDS API).
 - Concatenate and preprocess NetCDF files with `xarray` ([Data_manipul.ipynb](Data_manipul.ipynb)).
-- Switch to **0.1° x 0.1°** grid for higher resolution.
+- Switch to **0.25° x 0.25°** grid for higher resolution.
 
 ### 2. **Heatwave Detection**
 
